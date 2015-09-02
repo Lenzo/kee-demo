@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='style'>
 		<title>KEE Recordings Looking for Demo</title>
 		
 
@@ -16,31 +17,19 @@
 		#text {
 			margin-left: 30px;
 			max-width: 700px;
+			font-family: 'sans-serif';
 		}
 
-		#footer-rule {
-    		background-color:black;
-     		clear:both;
-  			height: 150px; 	 
-  			max-width: 927px;
-  			width: 100%;
-  			margin-top: 60px;
-		}
-
-		#footer-img{
-			float: left;
-			padding-top: 30px;
-			max-width: 927px;
-			width: 100%;
-		}
 
 		#social-media {
 			list-style: none;
 			margin: 0 auto;
-			padding: 0px;
+			padding: 0em;
 			display: inline-block;
 			overflow: hidden;
 			float: left;
+			max-width: 700px;
+			z-index: 1;
 
 		}
 
@@ -49,14 +38,28 @@
 			margin-right: auto;
 			float: left;
 			padding: 1px;
-			padding-bottom: 3	0px;
+			padding-left: 10px;
+			padding-bottom: 2em;
+			padding-top: 2em;
 			margin: 1px;
-
+			position: static;
 		
 		}
 
 		#icon-image {
-			width: 15%;
+			width: 4em;
+		}
+
+		#footer-rule {
+    		background-color:black;
+     		clear:both;
+  			height: 8em; 	 
+  			max-width: 927px;
+  			width: 100%;
+  			margin-top: 60px;
+  			position: relative;
+  			top: -8em;
+  			z-index: -50;
 		}
 
 		</style>
@@ -85,11 +88,11 @@
 
 		<div>
 		<ul id="social-media">
-		<li id="icon"><a id="icon-image"href="https://www.facebook.com/KingEmpireGlobal"><img src="images/facebook.jpg" alt="Facebook"></a></li>
-		<li id="icon"><a id="icon-image"href="https://twitter.com/KingEmpireEnt"><img src="images/twitter.jpg" alt="Twitter"></a></li>
-		<li id="icon"><a id="icon-image"href="https://instagram.com/kingempireent/"><img src="images/instagram.jpg" alt="Instagram"></a></li>
-		<li id="icon"><a id="icon-image"href="https://www.youtube.com/user/islandkingsrecords"><img src="images/youtube.jpg" alt="YouTube"></a></li>
-		<li id="icon"><a href="https://soundcloud.com/king-empire-entertainment"><img src="images/soundcloud.jpg" alt="SoundCloud"></a></li>
+		<li id="icon"><a href="https://www.facebook.com/KingEmpireGlobal"><img id="icon-image" src="images/facebook.jpg" alt="Facebook"></a></li>
+		<li id="icon"><a href="https://twitter.com/KingEmpireEnt"><img id="icon-image" src="images/twitter.jpg" alt="Twitter"></a></li>
+		<li id="icon"><a href="https://instagram.com/kingempireent/"><img id="icon-image" src="images/instagram.jpg" alt="Instagram"></a></li>
+		<li id="icon"><a href="https://www.youtube.com/user/islandkingsrecords"><img id="icon-image" src="images/youtube.jpg" alt="YouTube"></a></li>
+		<li id="icon"><a href="https://soundcloud.com/king-empire-entertainment"><img id="icon-image" src="images/soundcloud.jpg" alt="SoundCloud"></a></li>
 		</div>
 
 		</ul>
